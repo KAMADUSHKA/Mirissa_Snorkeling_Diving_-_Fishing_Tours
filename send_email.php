@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
 
         // Email sender and recipients
-        $mail->setFrom('info@divingtourmirissa.com', 'Diving Tours Mirissa');
+        $mail->setFrom('info@divingtourmirissa.com', 'Mirissa Snorkelling Diving & Fishing Tours');
         $mail->addAddress('visualvibegraphicslk@gmail.com');
         $mail->addAddress('info@divingtourmirissa.com');
         $mail->addReplyTo($email, $name);
