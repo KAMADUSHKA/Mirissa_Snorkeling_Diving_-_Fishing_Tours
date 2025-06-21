@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@divingtourmirissa.com';
+        $mail->Username = 'info@mirissasnorkelingdivingfishingtours.com';
         $mail->Password = 'divingTourMirissa@123';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;     
@@ -35,9 +35,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ];
 
         // Email sender and recipients
-        $mail->setFrom('info@divingtourmirissa.com', 'Mirissa Snorkelling Diving & Fishing Tours');
+        $mail->setFrom('info@mirissasnorkelingdivingfishingtours.com', 'Mirissa Snorkelling Diving & Fishing Tours');
         $mail->addAddress('visualvibegraphicslk@gmail.com');
-        $mail->addAddress('info@divingtourmirissa.com');
+        $mail->addAddress('info@mirissasnorkelingdivingfishingtours.com');
         $mail->addReplyTo($email, $name);
 
         // Email subject
