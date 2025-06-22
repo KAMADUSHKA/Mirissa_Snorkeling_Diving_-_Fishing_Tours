@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'info@mirissasnorkelingdivingfishingtours.com';
-        $mail->Password = 'divingTourMirissa@123';
+        $mail->Password = 'mirissaSnorkeling@123';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;     
         
